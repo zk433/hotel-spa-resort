@@ -5,7 +5,7 @@ function getHeight() {
 
 $(function() {
 
-	window.setTimeout('getHeight()',100);
+	window.setTimeout('getHeight()',150);
 
 	$('#gallery a').on('click', function() {
 		var image = $(this).find('img').attr('src');
